@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,200;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.9rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    margin-top: 5rem;
+    width: 500px;
+}
+
+.container >header{
+
+    border: 1px solid white;
+}
+
+.container >header >p{
+    color:blueviolet;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.containter >header >h1{
+    font-size: 2rem;
+
+}
+
+.container >header >img{
+    /* width: 100%; */
+    height: 100%;
+    margin: 0.5rem 0;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+
+section h2{
+    font-size: 1.2rem;
+    font-style: bold;
+}
+
+section p{
+    color: black;
+    width: 100%;
+    margin-bottom: 1.4rem;
+
+}
+
+.details{
+    background-color: lightgray;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.details h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details > ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form h2{
+    font-size: 1.5rem;
+
+}
+
+form .two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
+    
+}
+
+form .two > .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.one >label{
+    font-size: 0.8rem;
+    color: black;
+
+}
+
+.one >input{
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.tac{
+    margin: 1rem 0;
+}
+
+.tac > a{
+    color: blueviolet;
+}
+
+form .button{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    /* background-color: blueviolet; */
+    color: white;
+    width: 100%;
+    font-family: 'Poppins';
+    border: 0;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    border: 5px;
+    gap:2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+form button:hover{
+    background-color: rgb(123,13,225);
+}
